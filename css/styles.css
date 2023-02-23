@@ -30,20 +30,16 @@ header {
   color: #ffffff;
 }
 .intro-bot {
-  width: 200px;
-  height: 30px;
-  font-family: 'Roboto';
+  width: 300px;
+  height: 40px;
   font-style: normal;
-  font-size: 9px;
+  font-family: 'Roboto';
   font-weight: 700;
   line-height: 20px;
-  display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
-  display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 20px 42px;
@@ -52,10 +48,13 @@ header {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
+  
 }
 
 .intro-bot:hover{
   background-color: #4686bb;
+  
+  
 }
 
 h2 {
@@ -75,6 +74,7 @@ ul {
 .footer {
   font-style: normal;
   background-color: #2f303a;
+  
 }
 .address,
 .mail-tel {
@@ -94,6 +94,7 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+
 }
 
 .logo-header {
@@ -107,14 +108,6 @@ ul {
   text-align: right;
 }
 
-.logo-fotter {
-  font-family: 'Raleway', sans-serif;
-  color: #ffffff;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-}
 .detalles {
   font-size: 14px;
   line-height: 1.71;
@@ -127,15 +120,7 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-h3 {
-  display: block;
-  font-size: 1.17em;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  font-weight: bold;
-}
+
 p {
   display: block;
   margin-block-start: 1em;
@@ -150,6 +135,9 @@ p {
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #212121;
+}
+.header-id:hover{
+  background-color: #4686bb;
 }
 .color-let {
   color: #2196f3;
@@ -167,7 +155,6 @@ a {
   color: #2196f3;
 }
 .entrar {
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -179,10 +166,27 @@ a {
   cursor: pointer;
   padding: 6px 24px;
   color: #ffffff;
+  
+}
+.entrar:hover{
+background-color: #4686bb;
+
+}
+.bot{
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 
 .icon-blue {
   color: #2196f3;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+font-style: normal;
+line-height: 31px;
+letter-spacing: 0.03em;
+
 }
 .nombres {
   font-size: 16px;
